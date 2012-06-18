@@ -806,7 +806,7 @@ concat
 
 ::
 
-    ; 零个、一个到多个 collection 组合
+    ; 另个、一个或多个 collection 组合
 
     user=> (concat)
     ()
@@ -827,6 +827,5 @@ concat
     ; 传入 concat 的参数必须都是 collection 
     ; 组合元素和 collection 是 cons 和 conj 的任务
 
-    user=> (concat 1 [2 3])
-    IllegalArgumentException Don't know how to create ISeq from: java.lang.Long  clojure.lang.RT.seqFrom (RT.java:487)
-
+    ; user=> (concat 1 [2 3])
+    ; IllegalArgumentException Don't know how to create ISeq from: java.lang.Long  clojure.lang.RT.seqFrom (RT.java:487)
