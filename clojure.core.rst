@@ -26,7 +26,7 @@ seq
     user=> (seq nil)
     nil
 
-    ; 处理非空向量、列表、 map 和字符串
+    ; 处理非空向量、列表、 Map 和字符串
 
     user=> (seq [1 2 3])
     (1 2 3)
@@ -173,12 +173,12 @@ vals
 
 ::
 
-    ; 空 map
+    ; 空 Map
 
     user=> (vals {})
     nil
 
-    ; 非空 map
+    ; 非空 Map
 
     user=> (vals {:python "Guido" :clojure "Rich" :ruby "Matz"})
     ("Guido" "Matz" "Rich")
@@ -193,12 +193,12 @@ keys
 
 ::
 
-    ; 空 map
+    ; 空 Map
 
     user=> (keys {})
     nil
 
-    ; 非空 map
+    ; 非空 Map
 
     user=> (keys {:python "Guido" :clojure "Rich" :ruby "Matz"})
     (:python :ruby :clojure)
