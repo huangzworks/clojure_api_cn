@@ -983,13 +983,13 @@ contains?
 
 ::
 
-    user=> (contains? {:clojure "Rich"} :python)        # 测试 Map
+    user=> (contains? {:clojure "Rich"} :python)        ; 测试 Map
     false
 
     user=> (contains? {:clojure "Rich"} :clojure)
     true
 
-    user=> (contains? [1 3 5 7 9] 3)                    # 测试向量
+    user=> (contains? [1 3 5 7 9] 3)                    ; 测试向量
     true
 
     user=> (contains? [1 3 5 7 9] 10086)
@@ -1020,10 +1020,10 @@ some
     user=> (some #{:mary} [:fred :peter :jack])
     nil
 
-    user=> (some #(>= % 10) [1 3 5 7 9])            # 查看是否有 >= 10 的值存在
+    user=> (some #(>= % 10) [1 3 5 7 9])            ; 查看是否有 >= 10 的值存在
     nil
 
-    user=> (some #(>= % 5) [1 3 5 7 9])             # 查看是否有 >= 5 的值存在
+    user=> (some #(>= % 5) [1 3 5 7 9])             ; 查看是否有 >= 5 的值存在
     true
 
 
