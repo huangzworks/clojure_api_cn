@@ -891,13 +891,16 @@ count
 
 **(count coll)**
 
-返回 ``coll`` 中元素的数量，
+返回 ``coll`` 中元素的数量。
 
 ``(count nil)`` 返回 ``0`` 。
 
 ``coll`` 也可以是字符串、数组、Java Collection 和 Map 。
 
 ::
+
+    user=> (count nil)
+    0
 
     user=> (count [1 2 3 4])
     4
