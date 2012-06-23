@@ -1124,16 +1124,21 @@ cond
 
 ::
 
-    user=> (defn abs [x]
-               (cond (< x 0) (- x)
-                     :else x))
-    #'user/abs
+    user=> (defn type-of-number [n]
+               (cond (> n 0) "positive number"
+                     (< n 0) "negative number"
+                     :else "zero"))
+    #'user/type-of-number
 
-    user=> (abs -1)
-    1
+    user=> (type-of-number 10)
+    "positive number"
 
-    user=> (abs 1)
-    1
+    user=> (type-of-number -5)
+    "negative number"
+
+    user=> (type-of-number 0)
+    "zero"
+
 
 
 fn
