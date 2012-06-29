@@ -1155,7 +1155,7 @@ fn
 
     user=> (fn greeting [name]                                          ; 创建匿名函数
                (str "Hello, " name " ."))
-    #<user$eval1$greeting__2 user$eval1$greeting__2@616fde>
+    ;#<user$eval1$greeting__2 user$eval1$greeting__2@616fde>
 
     user=> ((fn greeting [name]                                         ; 应用匿名函数
                (str "hello, " name " ."))
