@@ -1418,8 +1418,14 @@ declare
                 (g))
     #'user/f
 
+
+.. include:: clojure.core/defonce.rst
+
+
+.. 判定部分
+
 .. include:: clojure.core/if-not.rst
 
 .. include:: clojure.core/when-not.rst
 
-.. include:: clojure.core/defonce.rst
+.. include:: clojure.core/when-let.rst
