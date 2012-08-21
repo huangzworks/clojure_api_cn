@@ -1419,3 +1419,5 @@ declare
     #'user/f
 
 .. include:: clojure.core/if-not.rst
+
+.. include:: clojure.core/when-not.rst
