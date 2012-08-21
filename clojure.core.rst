@@ -1418,3 +1418,4 @@ declare
                 (g))
     #'user/f
 
+.. include:: clojure.core/if-not.rst
