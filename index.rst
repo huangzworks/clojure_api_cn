@@ -22,6 +22,7 @@ Clojure API 文档
    :maxdepth: 2
 
    clojure.core
+   clojure.string
 
 Indices and tables
 ==================
