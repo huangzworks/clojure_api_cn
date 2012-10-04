@@ -1419,6 +1419,10 @@ declare
     #'user/f
 
 
+.. 定义部分
+
+.. include:: clojure.core/defn-.rst
+
 .. include:: clojure.core/defonce.rst
 
 
