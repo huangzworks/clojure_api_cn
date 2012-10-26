@@ -24,6 +24,8 @@ Clojure API 文档
    clojure.core
    clojure.string
 
+.. include:: _ref.rst
+
 Indices and tables
 ==================
 

@@ -8,3 +8,5 @@
 
 在线阅读地址： `clojure_api_cn.readthedocs.org
 <http://clojure_api_cn.readthedocs.org/>`_ 。
+
+.. include:: _ref.rst
