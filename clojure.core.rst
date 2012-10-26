@@ -1441,3 +1441,5 @@ declare
 .. include:: clojure.core/dorun.rst
 
 .. include:: clojure.core/doall.rst
+
+.. include:: clojure.core/doseq.rst
