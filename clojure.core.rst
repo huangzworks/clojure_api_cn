@@ -1435,3 +1435,9 @@ declare
 .. include:: clojure.core/when-not.rst
 
 .. include:: clojure.core/when-let.rst
+
+.. 序列部分
+
+.. include:: clojure.core/dorun.rst
+
+.. include:: clojure.core/doall.rst
