@@ -5,6 +5,8 @@ clojure.string
 
 .. include:: clojure.string/capitalize.rst
 
+.. include:: clojure.string/escape.rst
+
 .. include:: clojure.string/split.rst
 
 .. include:: clojure.string/split-lines.rst
