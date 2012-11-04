@@ -26,3 +26,5 @@ clojure.string
 .. include:: clojure.string/trim-newline.rst
 
 .. include:: clojure.string/triml.rst
+
+.. include:: clojure.string/trimr.rst
