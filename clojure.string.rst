@@ -28,3 +28,5 @@ clojure.string
 .. include:: clojure.string/triml.rst
 
 .. include:: clojure.string/trimr.rst
+
+.. include:: clojure.string/upper-case.rst
