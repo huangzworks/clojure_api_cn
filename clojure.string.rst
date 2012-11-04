@@ -22,3 +22,5 @@ clojure.string
 .. include:: clojure.string/split-lines.rst
 
 .. include:: clojure.string/trim.rst
+
+.. include:: clojure.string/trim-newline.rst
