@@ -9,9 +9,6 @@ trim-newline
 
 ::
 
-    user=> (clojure.string/trim-newline "test")   
-    "test"
-
     user=> (clojure.string/trim-newline "test\n")
     "test"
 
@@ -28,4 +25,3 @@ trim-newline
 
     user=> (clojure.string/trim-newline "leading newline\n trailing newline\n")
     "leading newline\n trailing newline"
-
