@@ -13,8 +13,12 @@ join
     user=> (def fruit ["apple" "banana" "cherry"])
     #'user/fruit
 
+    ; 不使用 separator
+
     user=> (clojure.string/join fruit)
     "applebananacherry"
+
+    ; 使用 ", " 作为 separator
 
     user=> (clojure.string/join ", " fruit)
     "apple, banana, cherry"
