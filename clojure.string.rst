@@ -9,6 +9,8 @@ clojure.string
 
 .. include:: clojure.string/join.rst
 
+.. include:: clojure.string/lower-case.rst
+
 .. include:: clojure.string/split.rst
 
 .. include:: clojure.string/split-lines.rst
