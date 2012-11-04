@@ -7,6 +7,8 @@ clojure.string
 
 .. include:: clojure.string/escape.rst
 
+.. include:: clojure.string/join.rst
+
 .. include:: clojure.string/split.rst
 
 .. include:: clojure.string/split-lines.rst
