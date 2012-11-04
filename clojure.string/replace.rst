@@ -33,7 +33,7 @@ replace
     user=> (clojure.string/replace "The color is red" #"red" "blue")
     "The color is blue"
 
-    ; 另一个组合 3 ：用函数的结果来替换匹配模式的实例
+    ; 另一个组合 3 ：用给定函数的返回值来替换匹配模式的实例
     ; 将字符串里的所有原音字母转换为大写
 
     user=> (clojure.string/replace "The color is red" #"[aeiou]" clojure.string/upper-case)
