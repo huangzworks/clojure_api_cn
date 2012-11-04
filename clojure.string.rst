@@ -11,6 +11,8 @@ clojure.string
 
 .. include:: clojure.string/lower-case.rst
 
+.. include:: clojure.string/replace.rst
+
 .. include:: clojure.string/split.rst
 
 .. include:: clojure.string/split-lines.rst
