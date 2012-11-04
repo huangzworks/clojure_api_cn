@@ -15,6 +15,8 @@ clojure.string
 
 .. include:: clojure.string/replace-first.rst
 
+.. include:: clojure.string/reverse.rst
+
 .. include:: clojure.string/split.rst
 
 .. include:: clojure.string/split-lines.rst
