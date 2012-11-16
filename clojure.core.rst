@@ -131,3 +131,8 @@ clojure.core
 .. 包和文件管理
 
 .. include:: clojure.core/import.rst
+
+
+.. 杂项
+
+.. include:: clojure.core/time.rst
