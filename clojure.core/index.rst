@@ -117,3 +117,15 @@ clojure.core
    pvalues
 
    pcalls
+
+   delay
+
+   delay_p
+
+   realized
+
+   future
+
+   promise
+
+   deref
