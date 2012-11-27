@@ -10,8 +10,9 @@ pmap
 并行计算总是发生在消耗(consumption)之前，
 不过，计算结果只有在被需要时，才会被 realize 。
 
-``pmap`` 只在 ``f`` 为计算密集型函数的情况下适用，
-因为获得的性能提升足以抵消并行计算所需的协调消耗。
+只有当 ``f`` 为计算密集型函数，
+而且并行获得的性能提升足以抵消并行所需的协调消耗时，
+才应该使用 ``pmap`` 。
 
 `查看源码 <https://github.com/clojure/clojure/blob/d0c380d9809fd242bec688c7134e900f0bbedcac/src/clj/clojure/core.clj#L6194>`_
 
