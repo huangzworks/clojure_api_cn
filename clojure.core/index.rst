@@ -115,3 +115,5 @@ clojure.core
    pmap
 
    pvalues
+
+   pcalls
