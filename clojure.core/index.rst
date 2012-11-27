@@ -111,3 +111,5 @@ clojure.core
    import
 
    time
+
+   pmap
