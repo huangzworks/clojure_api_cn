@@ -22,7 +22,7 @@ Clojure API 文档
    :maxdepth: 2
 
    clojure.core
-   clojure.string
+   clojure.string/index
 
 .. include:: _ref.rst
 
