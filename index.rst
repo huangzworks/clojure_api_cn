@@ -21,7 +21,7 @@ Clojure API 文档
 .. toctree::
    :maxdepth: 2
 
-   clojure.core
+   clojure.core/index
    clojure.string/index
 
 .. include:: _ref.rst
