@@ -113,3 +113,5 @@ clojure.core
    time
 
    pmap
+
+   pvalues
