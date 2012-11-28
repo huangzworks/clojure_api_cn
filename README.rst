@@ -6,7 +6,7 @@
 <http://clojure.github.com/clojure/>`_
 的中文翻译版本。
 
-在线阅读地址： `clojure_api_cn.readthedocs.org
+在线阅读地址： `clojure-api-cn.readthedocs.org
 <http://clojure-api-cn.readthedocs.org/>`_ 。
 
 
