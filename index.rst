@@ -6,29 +6,6 @@
 Clojure API 文档
 ==========================================
 
-这是 Clojure 官方 API 文档 
-`clojure.github.com/clojure
-<http://clojure.github.com/clojure/>`_
-的中文翻译版本。
+文档的域名已变更。
 
-翻译工作目前正在进行中，欢迎加入：
-`github.com/huangz1990/clojure_api_cn
-<https://github.com/huangz1990/clojure_api_cn>`_
-。
-
-**目录：**
-
-.. toctree::
-   :maxdepth: 2
-
-   clojure.core/index
-   clojure.string/index
-
-.. include:: _ref.rst
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+请访问 `clojure-api-cn.readthedocs.org <http://clojure-api-cn.readthedocs.org>`_ 阅读最新更新的文档。
