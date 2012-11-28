@@ -27,7 +27,7 @@
 ``clojure.pprint``                      无
 ``clojure.reflect``                     无
 ``clojure.repl``                        无
-``clojure.set``                         无
+``clojure.set``                         进行中 
 ``clojure.stacktrace``                  无
 ``clojure.string``                      已完成
 ``clojure.template``                    无
