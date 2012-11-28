@@ -7,7 +7,7 @@
 的中文翻译版本。
 
 在线阅读地址： `clojure_api_cn.readthedocs.org
-<http://clojure_api_cn.readthedocs.org/>`_ 。
+<http://clojure-api-cn.readthedocs.org/>`_ 。
 
 
 翻译进度
