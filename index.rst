@@ -6,7 +6,7 @@
 Clojure API 文档
 ==========================================
 
-这是 Clojure 官方 API 文档 
+这是 Clojure 官方 API 文档
 `clojure.github.com/clojure
 <http://clojure.github.com/clojure/>`_
 的中文翻译版本。
@@ -23,6 +23,7 @@ Clojure API 文档
 
    clojure.core/index
    clojure.string/index
+   clojure.set/ind
 
 .. include:: _ref.rst
 
