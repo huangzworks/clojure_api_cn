@@ -1,5 +1,5 @@
 intersection
---------
+================
 
 | **(intersection s1)**
 | **(intersection s1 s2)**
@@ -11,7 +11,9 @@ intersection
 
     user> (use 'clojure.set)
     nil
+
     user> (intersection #{1 2 3} #{3 4 5})
     #{3}
+
     user> (intersection #{1 2 3} #{2 3} #{3})
     #{3}

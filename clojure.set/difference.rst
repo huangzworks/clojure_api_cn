@@ -1,5 +1,5 @@
 difference
----------
+=============
 
 | **(difference s1)**
 | **(difference s1 s2)**
@@ -13,13 +13,18 @@ difference
 
     user> (use 'clojure.set)
     nil
+
     user> (difference #{:a :b :c})
     #{:a :c :b}
+
     user> (difference #{:a :b :c} #{:a :b})
     #{:c}
+
     user> (difference #{:a :b :c} #{:a :b :c})
     #{}
+
     user> (difference #{:a :b :c} #{:a} #{:b})
     #{:c}
+
     user> (let [s #{:a :b :c}] (identical? s (difference s)))
     true
