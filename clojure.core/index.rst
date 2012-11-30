@@ -131,3 +131,5 @@ clojure.core
    deref
 
    alter-var-root
+
+   comment
