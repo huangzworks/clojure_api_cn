@@ -42,6 +42,7 @@
 --------
 
 `huangz <http://huangz.me>`_
+`Qiu Xiafei <http://chunyemen.org>`_
 
 `Qiu Xiafei <http://chunyemen.org>`_
 
