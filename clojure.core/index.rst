@@ -129,3 +129,7 @@ clojure.core
    promise
 
    deref
+
+   alter-var-root
+
+   comment
