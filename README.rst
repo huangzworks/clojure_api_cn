@@ -1,7 +1,7 @@
 关于
 ====
 
-这是 Clojure 官方 API 文档 
+这是 Clojure 官方 API 文档
 `clojure.github.com/clojure
 <http://clojure.github.com/clojure/>`_
 的中文翻译版本。
@@ -27,7 +27,7 @@
 ``clojure.pprint``                      无
 ``clojure.reflect``                     无
 ``clojure.repl``                        无
-``clojure.set``                         进行中 
+``clojure.set``                         已完成
 ``clojure.stacktrace``                  无
 ``clojure.string``                      已完成
 ``clojure.template``                    无
@@ -65,10 +65,10 @@
 参考资料
 ------------
 
-Clojure 官方文档： `clojure.org/documentation <http://clojure.org/documentation>`_ 
+Clojure 官方文档： `clojure.org/documentation <http://clojure.org/documentation>`_
 
-Clojure API 手册： `clojure.github.com/clojure <http://clojure.github.com/clojure/>`_ 
+Clojure API 手册： `clojure.github.com/clojure <http://clojure.github.com/clojure/>`_
 
-Clojure Cheat Sheet： `clojure.org/cheatsheet <http://clojure.org/cheatsheet>`_ 
+Clojure Cheat Sheet： `clojure.org/cheatsheet <http://clojure.org/cheatsheet>`_
 
-ClojureDocs ，由社区驱动的，带代码示例的 API 手册： `clojuredocs.org <http://clojuredocs.org/>`_ 
+ClojureDocs ，由社区驱动的，带代码示例的 API 手册： `clojuredocs.org <http://clojuredocs.org/>`_
