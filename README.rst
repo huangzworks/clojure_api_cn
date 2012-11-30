@@ -42,6 +42,7 @@
 --------
 
 `huangz <http://huangz.me>`_
+`Qiu Xiafei <http://chunyemen.org>`_
 
 
 如何加入翻译？
