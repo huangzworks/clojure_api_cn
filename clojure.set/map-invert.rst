@@ -5,7 +5,7 @@ map-invert
 | **(map-invert m)**
 
 转置一个map，把value作为key，把key作为value。
-当一个多个key有同一个value时，只保留一个key。
+小心：当多个key有同一个value时，只保留一个key。
 
 p.s. 为毛这个函数在clojure.set里头...
 

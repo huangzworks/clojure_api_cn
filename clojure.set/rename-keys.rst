@@ -4,9 +4,9 @@ rename-keys
 | **(rename-keys map kmap)**
 
 把 ``map`` 中的key按照 ``kmap`` 提供的映射改名。
-可以使用array-map类型的 ``kmap`` 来指定替换顺序。
+可以使用 ``array-map`` 类型的 ``kmap`` 来指定替换顺序。
 
-注意，替换可能早成key冲突，导致原来的key-value对被覆盖。
+注意，替换可能造成key冲突，导致原来的key-value对被覆盖。
 
 
 ::
