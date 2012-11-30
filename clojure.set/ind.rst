@@ -22,8 +22,8 @@ clojure.set
 
     select
 
-    subset?
+    subset_q
 
-    superset?
+    superset_q
 
     union
