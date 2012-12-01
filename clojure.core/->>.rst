@@ -1,0 +1,34 @@
+->>
+======
+
+| **(->> x form)**
+| **(->> x form & more)**
+
+将多个形式串连成一个表达式。
+
+如果只有一个参数 ``x`` 和一个形式 ``form`` ，那么将 ``x`` 作为最后一项(item)，插入到 ``form`` 当中，如果 ``form`` 不是一个列表，那么将 ``form`` 包裹到一个列表里面。[译注：举个例子， ``(->> a-map :key)`` 会展开成 ``(:key a-map)`` ，而不是 ``:key a-map`` 。]
+
+如果有多于一个形式，那么将第一个形式作为最后一项插入到第二个形式中，以此类推。
+
+`查看源码 <https://github.com/clojure/clojure/blob/d0c380d9809fd242bec688c7134e900f0bbedcac/src/clj/clojure/core.clj#L1541>`_
+
+::
+
+    ; 计算小于 10 的整数的平方之和
+
+    user=> (->> (range)
+                (map #(* % %))
+                (filter even?)
+                (take 10)
+                (reduce +))
+    1140
+
+    user=> (use '[clojure.walk :only [macroexpand-all]])
+    nil
+
+    user=> (macroexpand-all '(->> (range)
+                                  (map #(* % %)) 
+                                  (filter even?)
+                                  (take 10)
+                                  (reduce +)))
+    (reduce + (take 10 (filter even? (map (fn* [p1__3#] (* p1__3# p1__3#)) (range)))))

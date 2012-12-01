@@ -1,0 +1,42 @@
+->
+=====
+
+| **(-> x)**
+| **(-> x form)**
+| **(-> x form & more)**
+
+将多个形式串连成一个表达式。
+
+如果只有一个参数 ``x`` 和一个形式 ``form`` ，那么将 ``x`` 作为第二个项(item)，插入到 ``form`` 当中，如果 ``form`` 不是一个列表，那么将 ``form`` 包裹到一个列表里面。[译注：举个例子， ``(-> a-map :key)`` 会展开成 ``(:key a-map)`` ，而不是 ``:key a-map`` 。]
+
+如果有多于一个形式，那么将第一个形式作为第二个项插入到第二个形式中，以此类推。
+
+`查看源码 <https://github.com/clojure/clojure/blob/d0c380d9809fd242bec688c7134e900f0bbedcac/src/clj/clojure/core.clj#L1529>`_
+
+::
+
+    ; 应用多个函数
+
+    user=> (-> "a b c d" .toUpperCase (.replace "A" "X") (.split " ") first)
+    "X"
+
+    user=> (use '[clojure.walk :only [macroexpand-all]])
+    nil
+
+    user=> (macroexpand-all '(-> "a b c d" 
+                                 .toUpperCase 
+                                 (.replace "A" "X") 
+                                 (.split " ") 
+                                 first)) 
+    (first (. (. (. "a b c d" toUpperCase) replace "A" "X") split " "))
+
+    ; 从深层嵌套的 map 中取出值
+
+    user=> (def language {:clojure {:author {:first-name "Rich" :last-name "Hickey"}}})
+    #'user/language
+
+    user=> (:first-name (:author (:clojure language)))
+    "Rich"
+
+    user=> (-> language :clojure :author :first-name)
+    "Rich"

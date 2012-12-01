@@ -133,3 +133,7 @@ clojure.core
    alter-var-root
 
    comment
+
+   ->
+
+   ->>
