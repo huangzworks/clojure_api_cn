@@ -137,3 +137,5 @@ clojure.core
    ->
 
    ->>
+
+   get
