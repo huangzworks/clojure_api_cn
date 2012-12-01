@@ -7,6 +7,8 @@ intersection
 
 计算输入集合的交集。
 
+`查看源码 <https://github.com/clojure/clojure/blob/5ca0c1feb7f7260aad257e52f2ddb0d426e2db77/src/clj/clojure/set.clj#L32>`_
+
 ::
 
     user> (use 'clojure.set)
