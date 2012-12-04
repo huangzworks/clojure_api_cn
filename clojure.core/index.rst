@@ -145,3 +145,7 @@ clojure.core
    map-indexed
 
    mapcat
+
+   max-key
+
+   min-key
