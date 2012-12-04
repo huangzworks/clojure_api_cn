@@ -2,7 +2,7 @@ clojure.java.io
 =======================
 
 .. toctree::
-    :maxdepth 2
+    :maxdepth: 2
 
     Coercions
 
