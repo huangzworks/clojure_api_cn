@@ -149,3 +149,7 @@ clojure.core
    max-key
 
    min-key
+
+   reduce
+
+   reductions
