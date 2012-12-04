@@ -12,6 +12,8 @@ join
 
 .. TODO: 添加一个设置 ``km`` 参数的例子
 
+`查看源码 <https://github.com/clojure/clojure/blob/5ca0c1feb7f7260aad257e52f2ddb0d426e2db77/src/clj/clojure/set.clj#L111>`_
+
 ::
 
     user> (use 'clojure.set)

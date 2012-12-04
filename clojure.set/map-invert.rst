@@ -10,6 +10,8 @@ map-invert
 
 .. p.s. 为毛这个函数在 ``clojure.set`` 里头...
 
+`查看源码 <https://github.com/clojure/clojure/blob/5ca0c1feb7f7260aad257e52f2ddb0d426e2db77/src/clj/clojure/set.clj#L106>`_
+
 ::
 
     user> (use 'clojure.set)

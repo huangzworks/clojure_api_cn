@@ -10,6 +10,7 @@ index
 
 ``index`` 返回一个新 ``map`` ，新 ``map`` 的 ``key`` 是 ``ks`` 的成员作为 ``key`` 在 ``xrel`` 中每个 ``map`` 取到的不同值，新 ``map`` 的 ``value`` 是满足这些值的 ``xrel`` 中成员的集合。
 
+`查看源码 <https://github.com/clojure/clojure/blob/5ca0c1feb7f7260aad257e52f2ddb0d426e2db77/src/clj/clojure/set.clj#L95>`_
 
 ::
 
