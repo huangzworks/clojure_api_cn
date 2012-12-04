@@ -139,3 +139,5 @@ clojure.core
    ->>
 
    get
+
+   map
