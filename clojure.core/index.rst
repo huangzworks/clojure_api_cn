@@ -143,3 +143,5 @@ clojure.core
    map
 
    map-indexed
+
+   mapcat
