@@ -18,5 +18,5 @@ input-stream
     nil
     user> (input-stream (java.io.File. "/tmp/x"))
     ;;#<BufferedInputStream java.io.BufferedInputStream@21606a56>
-    user> (input-stream (java.io.File. "/tmp/x") :append true)
+    user> (input-stream (java.io.File. "/tmp/x") :encoding "UTF-8")
     ;;#<BufferedInputStream java.io.BufferedInputStream@3e347b11>
