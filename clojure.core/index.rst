@@ -141,3 +141,5 @@ clojure.core
    get
 
    map
+
+   map-indexed
