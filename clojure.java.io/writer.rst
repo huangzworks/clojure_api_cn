@@ -1,9 +1,9 @@
-make-output-stream
-===============
+writer
+=========
 
-| **(make-output-stream x opts)**
+| **(writer x & opts)**
 
-根据 ``x`` 创建 ``java.io.BufferedOutputStream`` 。
+跟据 ``x`` 构造 ``java.io.BufferedWriter`` 。
 
 ``x`` 可以是 ``java.io.BufferOutputStream`` ， ``java.io.OutputStream`` ， ``java.io.File`` ， ``java.net.URL`` ， ``java.net.URI`` ， ``java.lang.String`` ， ``java.net.Socket`` 。
 
@@ -13,11 +13,10 @@ make-output-stream
 
 ``opt`` 是一个map，定义选项，key可以是 ``:append`` 和 ``:encoding`` 。
 
+
 ::
 
     user> (use 'clojure.java.io)
     nil
-    user> (make-output-stream "/tmp/x" {})
-    ;;#<BufferedOutputStream java.io.BufferedOutputStream@5440bf04>
-    user> (make-output-stream (file "/tmp/x") {})
-    ;;#<BufferedOutputStream java.io.BufferedOutputStream@4268d15>
+    user> (writer (java.net.URL. "file:///tmp/x") :append true)
+    ;;#<BufferedWriter java.io.BufferedWriter@7274187a>
