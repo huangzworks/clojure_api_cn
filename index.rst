@@ -25,6 +25,7 @@ Clojure API 文档
    clojure.string/index
    clojure.set/ind
    clojure.java.io/index
+   clojure.java.javadoc/index
 
 参考资料
 ------------
