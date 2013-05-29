@@ -21,7 +21,7 @@
 ``clojure.inspector``                   无
 ``clojure.java.browse``                 无
 ``clojure.java.io``                     已完成
-``clojure.java.javadoc``                无
+``clojure.java.javadoc``                已完成
 ``clojure.java.shell``                  无
 ``clojure.main``                        无
 ``clojure.pprint``                      无
@@ -45,7 +45,7 @@
 
 `Qiu Xiafei <http://chunyemen.org>`_
 
-`Qiu Xiafei <http://chunyemen.org>`_
+`Lin Xiangyu <http://linxiangyu.org>`_
 
 
 如何加入翻译？
