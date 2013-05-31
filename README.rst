@@ -19,7 +19,7 @@
 ``clojure.core``                        进行中
 ``clojure.data``                        无
 ``clojure.inspector``                   无
-``clojure.java.browse``                 无
+``clojure.java.browse``                 已完成
 ``clojure.java.io``                     已完成
 ``clojure.java.javadoc``                已完成
 ``clojure.java.shell``                  无
@@ -33,7 +33,7 @@
 ``clojure.template``                    无
 ``clojure.test``                        无
 ``clojure.walk``                        无
-``clojure.xml``                         无
+``clojure.xml``                         已完成
 ``clojure.zip``                         无
 ================================     =============
 
