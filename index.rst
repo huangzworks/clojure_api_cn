@@ -24,8 +24,10 @@ Clojure API 文档
    clojure.core/index
    clojure.string/index
    clojure.set/ind
+   clojure.java.browse/index
    clojure.java.io/index
    clojure.java.javadoc/index
+   clojure.xml/index
 
 参考资料
 ------------
