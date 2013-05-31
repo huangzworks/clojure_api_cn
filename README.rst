@@ -33,7 +33,7 @@
 ``clojure.template``                    无
 ``clojure.test``                        无
 ``clojure.walk``                        无
-``clojure.xml``                         无
+``clojure.xml``                         已完成
 ``clojure.zip``                         无
 ================================     =============
 
