@@ -22,7 +22,7 @@
 ``clojure.java.browse``                 已完成
 ``clojure.java.io``                     已完成
 ``clojure.java.javadoc``                已完成
-``clojure.java.shell``                  无
+``clojure.java.shell``                  已完成
 ``clojure.main``                        无
 ``clojure.pprint``                      无
 ``clojure.reflect``                     无
