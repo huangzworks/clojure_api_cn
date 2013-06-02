@@ -3,7 +3,7 @@ add-remote-javadoc
 
 **(add-remote-javadoc package-prefix url)**
 
-添加路径到远程javadoc路径的列表，package-prefix是URL对应的javadoc的包名的开始部分。
+添加路径到远程javadoc路径的列表，``package-prefix`` 是URL对应的javadoc的包名的开始部分。
 
 `查看源码 <https://github.com/clojure/clojure/blob/be9ff491c4b2c23790fb316804551768960e355d/src/clj/clojure/java/javadoc.clj#L45>`_
 
