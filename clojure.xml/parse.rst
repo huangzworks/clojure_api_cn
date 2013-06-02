@@ -7,9 +7,9 @@ parse
 
 
 
-解析并加载源s，s可以是一个文件，输入流(InputStream),或者一个代表URL的字符串。返回xml/element的struct-map的树，struct-map有以下几个键: :tag, :attrs, :content 以及 tag, attrs, content的访问函数。
+解析并加载源s，s可以是一个文件，输入流(InputStream),或者一个代表URL的字符串。返回 ``xml/element`` 的 ``struct-map`` 的树，``struct-map`` 有以下几个键: ``:tag`` , ``:attrs`` , ``:content`` 以及 ``tag`` , ``attrs`` , ``content`` 的访问函数。
 
-另外parsers可以通过传递startparse函数来自定义解析函数，parse函数可以接收一个源和一个内容处理器（ContentHandler）作为参数并且返回一个解析器(parser)
+另外parsers可以通过传递 ``startparse`` 函数来自定义解析函数，parse函数可以接收一个源和一个内容处理器（ContentHandler）作为参数并且返回一个解析器(parser)
 
 
 
