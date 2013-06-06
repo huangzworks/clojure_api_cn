@@ -153,3 +153,5 @@ clojure.core
    reduce
 
    reductions
+
+   compile
