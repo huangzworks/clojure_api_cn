@@ -157,3 +157,7 @@ clojure.core
    compile
 
    bigdec
+
+   biginteger
+
+   bigint
