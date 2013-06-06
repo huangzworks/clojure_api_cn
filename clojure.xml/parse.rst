@@ -5,13 +5,16 @@ parse
 
 **(parse s startparse)**
 
+解析并加载源 ``s`` ， ``s`` 可以是一个文件， ``InputStream`` ,或者一个代表 URL 的字符串。
 
+函数返回一棵 ``xml/element`` 类型的 ``struct-map`` 树，
+``struct-map`` 中包含键 ``:tag`` 、 ``:attrs`` 、 ``:content`` ，
+以及访问函数 ``tag`` 、 ``attrs`` 、 ``content`` 。
 
-解析并加载源s，s可以是一个文件，输入流(InputStream),或者一个代表URL的字符串。返回 ``xml/element`` 的 ``struct-map`` 的树，``struct-map`` 有以下几个键: ``:tag`` , ``:attrs`` , ``:content`` 以及 ``tag`` , ``attrs`` , ``content`` 的访问函数。
-
-另外parsers可以通过传递 ``startparse`` 函数来自定义解析函数，parse函数可以接收一个源和一个内容处理器（ContentHandler）作为参数并且返回一个解析器(parser)
-
-
+``startparse`` 用于指定解释所使用的解释器，
+这个参数的值应该是一个函数：
+函数接受一个源（source）和一个内容处理器（ContentHandler）作为参数，
+并返回一个解释器作为函数的返回值。
 
 `查看源码 <https://github.com/clojure/clojure/blob/b9b1a094499b69a94bd47fc94c4f082d80239fa9/src/clj/clojure/xml.clj#L78>`_
 
@@ -35,10 +38,3 @@ parse
 	=>
 	<a href='nakkaya.com'/>
 	;;printed (to assure it's not lazy and performance), can be catched to string variable with with-out-str
-
-
-
-
-
-
-
