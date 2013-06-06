@@ -155,3 +155,5 @@ clojure.core
    reductions
 
    compile
+
+   bigdec
