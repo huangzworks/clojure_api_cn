@@ -153,3 +153,11 @@ clojure.core
    reduce
 
    reductions
+
+   compile
+
+   bigdec
+
+   biginteger
+
+   bigint
