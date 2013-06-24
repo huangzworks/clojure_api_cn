@@ -1,4 +1,4 @@
-complie
+compile
 --------
 
 **(compile lib)**
