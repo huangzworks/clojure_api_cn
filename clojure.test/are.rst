@@ -4,8 +4,7 @@ macro
 
 | **(are argv expr & args)**
 
-通过以模板表达的方式检查多个断言(``assertions``)
-关于模板的解释请查阅 ``clojure.template/do-template``
+通过以模板表达的方式检查多个断言(``assertions``)。关于模板的解释请查阅 ``clojure.template/do-template``
 
 ::
 
