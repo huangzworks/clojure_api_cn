@@ -39,7 +39,7 @@
 ``clojure.stacktrace``                  无
 ``clojure.string``                      已完成           `huangz`_
 ``clojure.template``                    无
-``clojure.test``                        无
+``clojure.test``                        进行中           `yfwu`_
 ``clojure.walk``                        无
 ``clojure.xml``                         已完成           `Lin Xiangyu`_
 ``clojure.zip``                         无
