@@ -8,10 +8,12 @@ macro
 关于模板的解释请查阅 ``clojure.template/do-template``
 
 ::
-    #Example:
+
+    ;例子:
     (are [x y] (= x y)
               2 (+ 1 1)
               4 (* 2 2))
-    #Expands to:
+
+    ;宏将展开为:
     (do (is (= 2 (+ 1 1)))
         (is (= 4 (* 2 2))))
