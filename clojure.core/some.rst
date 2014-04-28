@@ -3,7 +3,7 @@ some
 
 **(some pred coll)**
 
-返回 ``coll`` 中第一个满足条件 ``(pred x)`` 的值 ``x`` 。
+如果 ``coll`` 中有一个元素 ``x`` 能满足 ``(pred x)`` ，则返回``(pred x)``的值
 
 如果 ``coll`` 中没有任何元素 ``x`` 能满足 ``(pred x)`` ，
 返回 ``nil`` 。
