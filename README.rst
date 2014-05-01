@@ -23,6 +23,8 @@
 
 .. _yfwu: https://github.com/yfwu
 
+.. _simlegate: https://github.com/simlegate
+
 ================================     =============      =====================================================
  模块                                 进度               译者
 ================================     =============      =====================================================
@@ -36,7 +38,7 @@
 ``clojure.main``                        无
 ``clojure.pprint``                      无
 ``clojure.reflect``                     无
-``clojure.repl``                        无
+``clojure.repl``                        进行中           `simlegate`_
 ``clojure.set``                         已完成           `Qiu Xiafei`_
 ``clojure.stacktrace``                  无
 ``clojure.string``                      已完成           `huangz`_

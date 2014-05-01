@@ -29,6 +29,7 @@ Clojure API 文档
    clojure.java.javadoc/index
    clojure.java.shell/index
    clojure.xml/index
+   clojure.repl/index
 
 参考资料
 ------------
