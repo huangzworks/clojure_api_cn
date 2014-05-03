@@ -5,3 +5,4 @@ clojure.repl
    :maxdepth: 2
 
    apropos
+   dir
