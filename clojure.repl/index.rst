@@ -6,3 +6,4 @@ clojure.repl
 
    apropos
    dir
+   dir-fn
