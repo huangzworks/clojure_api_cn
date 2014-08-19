@@ -9,3 +9,4 @@ clojure.repl
    dir-fn
    doc
    find-doc
+   pst
