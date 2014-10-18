@@ -25,6 +25,8 @@
 
 .. _simlegate: https://github.com/simlegate
 
+.. _sectic: https://github.com/sectic
+
 ================================     =============      =====================================================
  模块                                 进度               译者
 ================================     =============      =====================================================
@@ -36,7 +38,7 @@
 ``clojure.java.javadoc``                已完成           `Lin Xiangyu`_
 ``clojure.java.shell``                  已完成           `Lin Xiangyu`_
 ``clojure.main``                        无
-``clojure.pprint``                      进行中           `sectic`_ 
+``clojure.pprint``                      进行中           `sectic`_
 ``clojure.reflect``                     无
 ``clojure.repl``                        进行中           `simlegate`_
 ``clojure.set``                         已完成           `Qiu Xiafei`_
