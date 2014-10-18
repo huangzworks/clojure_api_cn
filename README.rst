@@ -36,7 +36,7 @@
 ``clojure.java.javadoc``                已完成           `Lin Xiangyu`_
 ``clojure.java.shell``                  已完成           `Lin Xiangyu`_
 ``clojure.main``                        无
-``clojure.pprint``                      无
+``clojure.pprint``                      进行中           `sectic`_ 
 ``clojure.reflect``                     无
 ``clojure.repl``                        进行中           `simlegate`_
 ``clojure.set``                         已完成           `Qiu Xiafei`_
