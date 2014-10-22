@@ -48,58 +48,43 @@ http://www.lispworks.com/documentation/HyperSpec/Body/22_c.htm
     user=> (cl-format nil "~5d" 3)
     "    3"
 
-    user=> (cl-format nil "Pad with leading zeros
-    ~5,'0d" 3)
+    user=> (cl-format nil "Pad with leading zeros ~5,'0d" 3)
     "Pad with leading zeros 00003"
 
-    user=> (cl-format nil "Pad with leading
-    asterisks ~5,'*d" 3)
+    user=> (cl-format nil "Pad with leading asterisks ~5,'*d" 3)
     "Pad with leading asterisks ****3"
 
 
-    ;; 如果有办法去描述一个左对齐的数在一个
-    formatString 里请标示在这理。
-    ;; 这个任务在我看来，可以首先去 formatted 数成
-    String 然后再使用 <width>
+    ;; 如果有办法去描述一个左对齐的数在一个 formatString 里请标示在这理。
+    ;; 这个任务在我看来，可以首先去 formatted 数成 String 然后再使用 <width>
     规则加到原来的输出结果上。
 
-    user=> (cl-format nil "~15a" (cl-format nil
-    "~:d" 1234567))
+    user=> (cl-format nil "~15a" (cl-format nil "~:d" 1234567))
     "1,234,567      "
 
-    user=> (cl-format nil "Always print the sign
-    ~5@d" 3)
+    user=> (cl-format nil "Always print the sign ~5@d" 3)
     "Always print the sign    +3"
 
-    user=> (cl-format nil "Use comma
-    group-separator every 3 digits ~12:d" 1234567)
-    "Use comma group-separator every 3 digits
-    1,234,567"
+    user=> (cl-format nil "Use comma group-separator every 3 digits ~12:d" 1234567)
+    "Use comma group-separator every 3 digits 1,234,567"
 
-    user=> (cl-format nil "decimal ~d  binary ~b
-    octal ~o  hex ~x" 63 63 63 63)
+    user=> (cl-format nil "decimal ~d  binary ~b octal ~o  hex ~x" 63 63 63 63)
     "decimal 63  binary 111111  octal 77  hex 3f"
 
-    user=> (cl-format nil "base 7  ~7r  with width
-    and zero pad  ~7,15,'0r" 63 63)
-    "base 7  120  with width and zero pad
-    000000000000120"
+    user=> (cl-format nil "base 7  ~7r  with width and zero pad  ~7,15,'0r" 63 63)
+    "base 7  120  with width and zero pad 000000000000120"
 
     ;; 在 cl-format 里不需要做任何转换  BigInt,
     ;; BigInteger, or BigDecimal.
-    user=> (cl-format nil "cl-format handles
-    BigInts ~15d" 12345678901234567890)
+    user=> (cl-format nil "cl-format handle   BigInts ~15d" 12345678901234567890)
     "cl-format handles BigInts
     12345678901234567890"
 
-    user=> (cl-format nil "Be aware of
-    auto-conversion  ~8,'0d  ~8,'0d" 2.4 -5/4)
+    user=> (cl-format nil "Be aware of auto-conversion  ~8,'0d  ~8,'0d" 2.4 -5/4)
     "Be aware of auto-conversion  000002.4
     0000-5/4"
 
-    ;; 下面看起来可能像是一个bug，但是是被 Common
-    Lisp HyperSpec
-    写在文档上的一种方法，如果你觉得这样写不爽，
+    ;; 下面看起来可能像是一个bug，但是是被 Common Lisp HyperSpec 写在文档上的一种方法，如果你觉得这样写不爽，
     ;; 你也可以这样写 (format "%08d" -2)
 
     user=> (cl-format nil "~8,'0d" -2)
