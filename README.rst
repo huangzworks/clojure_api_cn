@@ -27,10 +27,12 @@
 
 .. _sectic: https://github.com/sectic
 
+.. _yaphet: https://github.com/darionyaphet
+
 ================================     =============      =====================================================
  模块                                 进度               译者
 ================================     =============      =====================================================
-``clojure.core``                        进行中           `huangz`_ , `Lin Xiangyu`_
+``clojure.core``                        进行中           `huangz`_ , `Lin Xiangyu`_ , `yaphet`_
 ``clojure.data``                        无
 ``clojure.inspector``                   无
 ``clojure.java.browse``                 已完成           `Lin Xiangyu`_
