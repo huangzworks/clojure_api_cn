@@ -23,6 +23,7 @@ Clojure API 文档
 
    clojure.core/index
    clojure.core.async/index
+   clojure.data/index
    clojure.string/index
    clojure.set/ind
    clojure.java.browse/index
