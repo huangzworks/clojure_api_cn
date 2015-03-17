@@ -4,160 +4,94 @@ clojure.core
 .. toctree::
    :maxdepth: 2
 
-   defn-
-
-   defonce
-
-   declare
-
-   fn
-
-   letfn
-
-   cond
-
-   if-not
-
-   if-let
-
-   when-not
-
-   when-let
-
-   seq
-
-   rseq
-
-   subseq
-
-   rsubseq
-
-   repeat
-
-   repeatedly
-
-   iterate
-
-   range
-
-   keep
-
-   distinct
-
-   filter
-
-   remove
-
-   some
-
-   dorun
-
-   doall
-
-   doseq
-
-   re-seq
-
-   file-seq
-
-   line-seq
-
-   tree-seq
-
-   xml-seq
-
-   concat
-
-   cons
-
-   conj
-
-   keep-indexed
-
-   next
-
-   first
-
-   sort
-
-   reverse
-
-   shuffle
-
-   count
-
-   counted
-
-   empty
-
-   contains
-
-   vals
-
-   keys
-
-   assoc
-
-   dissoc
-
-   partial
-
-   constantly
-
-   complement
-
-   comp
-
-   import
-
-   time
-
-   pmap
-
-   pvalues
-
-   pcalls
-
-   delay
-
-   delay_p
-
-   realized
-
-   future
-
-   promise
-
-   deref
-
-   alter-var-root
-
-   comment
-
    ->
-
    ->>
-
-   get
-
-   map
-
-   map-indexed
-
-   mapcat
-
-   max-key
-
-   min-key
-
-   reduce
-
-   reductions
-
-   compile
-
+   -_
+   -__
+   aclone
+   alength
+   alter-var-root
+   assoc
    bigdec
-
-   biginteger
-
    bigint
+   biginteger
+   comment
+   comp
+   compile
+   complement
+   concat
+   cond
+   conj
+   cons
+   constantly
+   contains
+   count
+   counted
+   declare
+   defn-
+   defonce
+   defprotocol
+   delay
+   delay_p
+   deref
+   dissoc
+   distinct
+   doall
+   dorun
+   doseq
+   empty
+   even
+   first
+   file-seq
+   filter
+   fn
+   future
+   get
+   if-let
+   if-not
+   import
+   into
+   iterate
+   keep-indexed
+   keep
+   key
+   keys
+   letfn
+   line-seq
+   map-indexed
+   map
+   mapcat
+   max-key
+   merge
+   min-key
+   next
+   odd
+   partial
+   pcalls
+   pmap
+   promise
+   pvalues
+   range
+   re-seq
+   realized
+   reduce
+   reductions
+   remove
+   repeat
+   repeatedly
+   reverse
+   rseq
+   rsubseq
+   seq
+   shuffle
+   some
+   sort
+   subseq
+   time
+   tree-seq
+   vals
+   when-let
+   when-not
+   with-open
+   xml-seq
+   zipmap
