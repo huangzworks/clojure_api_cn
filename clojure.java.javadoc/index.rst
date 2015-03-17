@@ -1,5 +1,5 @@
 clojure.java.javadoc
-==================
+=========================
 
 .. toctree::
     :maxdepth: 2

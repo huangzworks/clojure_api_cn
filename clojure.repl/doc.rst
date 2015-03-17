@@ -2,6 +2,7 @@ doc
 =============
 
 | **(doc name)**
+
 打印出某个Var对象或者special form的文档信息
 
 ::

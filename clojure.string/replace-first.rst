@@ -3,7 +3,7 @@ replace-first
 
 **(replace-first s match replacement)**
 
-和 `replace`_ 的作用类似，但只替换 ``match`` 的第一个实例。
+和 `replace` 函数的作用类似，但只替换 ``match`` 的第一个实例。
 
 ::
 

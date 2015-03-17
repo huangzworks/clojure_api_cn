@@ -1,5 +1,5 @@
 add-local-javadoc
-===============
+====================
 
 **(add-local-javadoc path)**
 

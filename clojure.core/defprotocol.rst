@@ -1,5 +1,5 @@
 defprotocol
---------
+--------------
 
 **(defprotocol name & opts+sigs)**
 

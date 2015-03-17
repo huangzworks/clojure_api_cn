@@ -1,5 +1,5 @@
 make-input-stream
-================
+======================
 
 | **(make-input-stream x opts)**
 

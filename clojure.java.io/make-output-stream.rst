@@ -1,5 +1,5 @@
 make-output-stream
-===============
+=========================
 
 | **(make-output-stream x opts)**
 

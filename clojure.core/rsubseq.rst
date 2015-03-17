@@ -4,7 +4,7 @@ rsubseq
 | **(rsubseq sc test key)**
 | **(rsubseq sc start-test start-key end-test end-key)**
 
-用法和 `subseq`_ 一样，但是返回的序列是逆序排序的。
+用法和 `subseq` 函数一样，但是返回的序列是逆序排序的。
 
 等同于执行 ``(rseq (subseq sc test key))`` 或者 ``(rseq (subseq sc start-test start-key end-test end-key))`` 。
 

@@ -1,5 +1,5 @@
 add-remote-javadoc
-===============
+=======================
 
 **(add-remote-javadoc package-prefix url)**
 
