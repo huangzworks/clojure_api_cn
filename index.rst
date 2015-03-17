@@ -27,6 +27,7 @@ Clojure API 文档
    clojure.pprint/index
    clojure.string/index
    clojure.set/ind
+   clojure.test/index
    clojure.java.browse/index
    clojure.java.io/index
    clojure.java.javadoc/index
