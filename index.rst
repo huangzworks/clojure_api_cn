@@ -22,6 +22,7 @@ Clojure API 文档
    :maxdepth: 2
 
    clojure.core/index
+   clojure.core.async/index
    clojure.string/index
    clojure.set/ind
    clojure.java.browse/index
