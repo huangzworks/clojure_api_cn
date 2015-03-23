@@ -6,6 +6,9 @@
 Clojure API 文档
 ==========================================
 
+.. image:: image/clojure-icon.gif
+   :align: right
+
 这是 Clojure 官方 API 文档
 `clojure.github.com/clojure
 <http://clojure.github.com/clojure/>`_
